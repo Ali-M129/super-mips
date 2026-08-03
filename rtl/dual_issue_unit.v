@@ -43,10 +43,10 @@ module dual_issue_unit #(
     output wire       frontend_hold,
     output wire [1:0] advance_count
 );
-    wire unused_slot0_source_metadata;
-    wire unused_slot1_control_metadata;
-    assign unused_slot0_source_metadata = uses_rs0 ^ uses_rt0 ^ rs0[0] ^ rt0[0];
-    assign unused_slot1_control_metadata = is_control1;
+    // Slot-0 source metadata is kept for a symmetric decoder/issue interface;
+    // intra-pair RAW only needs to compare slot0's destination with slot1's
+    // true sources.  A control instruction in slot1 is intentionally allowed
+    // beside a safe older slot0 instruction, so is_control1 is not a blocker.
 
     wire active0;
     wire active1;

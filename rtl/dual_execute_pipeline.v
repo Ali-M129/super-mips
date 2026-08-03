@@ -182,12 +182,12 @@ module dual_execute_pipeline (
     wire [EM_W-1:0] em_in_payload0 = {
         de_pc0, ex_result0, ex_b_reg0, de_dest_reg0, de_writes_reg0,
         de_mem_read0, de_mem_write0, de_wb_sel0,
-        (de_is_branch0 && (ex_a0 == ex_b_reg0)), de_branch_target0
+        (de_is_branch0 && ex_zero0), de_branch_target0
     };
     wire [EM_W-1:0] em_in_payload1 = {
         de_pc1, ex_result1, ex_b_reg1, de_dest_reg1, de_writes_reg1,
         de_mem_read1, de_mem_write1, de_wb_sel1,
-        (de_is_branch1 && (ex_a1 == ex_b_reg1)), de_branch_target1
+        (de_is_branch1 && ex_zero1), de_branch_target1
     };
 
     wire [EM_W-1:0] em_payload0;

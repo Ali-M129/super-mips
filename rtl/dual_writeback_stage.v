@@ -101,14 +101,23 @@ module dual_writeback_stage (
 
     assign wb_valid0 = mw_valid0;
     assign wb_valid1 = mw_valid1;
-    assign wb_we0    = mw_valid0 && mw_writes_reg0 && (mw_dest_reg0 != 5'd0);
-    assign wb_we1    = mw_valid1 && mw_writes_reg1 && (mw_dest_reg1 != 5'd0);
     assign wb_pc0    = mw_pc0;
     assign wb_pc1    = mw_pc1;
     assign wb_dest0  = mw_dest_reg0;
     assign wb_dest1  = mw_dest_reg1;
 
-    assign wb_collision = wb_we0 && wb_we1 && (wb_dest0 == wb_dest1);
+    // Raw architectural write intents before collision arbitration.
+    wire wb_we0_raw = mw_valid0 && mw_writes_reg0 && (mw_dest_reg0 != 5'd0);
+    wire wb_we1_raw = mw_valid1 && mw_writes_reg1 && (mw_dest_reg1 != 5'd0);
+
+    // A same-destination write should be unreachable after issue-time WAW
+    // checking.  If it is nevertheless observed, only one physical write is
+    // allowed.  Lane 1 is younger, so its value is architecturally later and
+    // wins; lane 0 remains a valid retired instruction but loses write enable.
+    assign wb_collision = wb_we0_raw && wb_we1_raw &&
+                          (mw_dest_reg0 == mw_dest_reg1);
+    assign wb_we0 = wb_we0_raw && !wb_collision;
+    assign wb_we1 = wb_we1_raw;
 endmodule
 
 `default_nettype wire
