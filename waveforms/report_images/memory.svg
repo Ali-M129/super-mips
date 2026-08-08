@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="812" viewBox="0 0 1500 812">
+<rect width="100%" height="100%" fill="white"/>
+<text x="750.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="20">Load-use hazard: one-cycle pair-wide stall</text>
+<text x="750.0" y="54" text-anchor="middle" font-family="sans-serif" font-size="12">Trigger: 45.000 ns</text>
+<line x1="250.0" y1="65" x2="250.0" y2="747" stroke="#dddddd"/>
+<text x="250.0" y="787" text-anchor="middle" font-family="monospace" font-size="11">15.0 ns</text>
+<line x1="401.9" y1="65" x2="401.9" y2="747" stroke="#dddddd"/>
+<text x="401.9" y="787" text-anchor="middle" font-family="monospace" font-size="11">25.0 ns</text>
+<line x1="553.8" y1="65" x2="553.8" y2="747" stroke="#dddddd"/>
+<text x="553.8" y="787" text-anchor="middle" font-family="monospace" font-size="11">35.0 ns</text>
+<line x1="705.6" y1="65" x2="705.6" y2="747" stroke="#dddddd"/>
+<text x="705.6" y="787" text-anchor="middle" font-family="monospace" font-size="11">45.0 ns</text>
+<line x1="857.5" y1="65" x2="857.5" y2="747" stroke="#dddddd"/>
+<text x="857.5" y="787" text-anchor="middle" font-family="monospace" font-size="11">55.0 ns</text>
+<line x1="1009.4" y1="65" x2="1009.4" y2="747" stroke="#dddddd"/>
+<text x="1009.4" y="787" text-anchor="middle" font-family="monospace" font-size="11">65.0 ns</text>
+<line x1="1161.2" y1="65" x2="1161.2" y2="747" stroke="#dddddd"/>
+<text x="1161.2" y="787" text-anchor="middle" font-family="monospace" font-size="11">75.0 ns</text>
+<line x1="1313.1" y1="65" x2="1313.1" y2="747" stroke="#dddddd"/>
+<text x="1313.1" y="787" text-anchor="middle" font-family="monospace" font-size="11">85.0 ns</text>
+<line x1="1465.0" y1="65" x2="1465.0" y2="747" stroke="#dddddd"/>
+<text x="1465.0" y="787" text-anchor="middle" font-family="monospace" font-size="11">95.0 ns</text>
+<line x1="705.6" y1="60" x2="705.6" y2="747" stroke="black" stroke-dasharray="6 4"/>
+<text x="238" y="103.0" text-anchor="end" font-family="monospace" font-size="13">clk</text>
+<line x1="250" y1="118" x2="1465" y2="118" stroke="#eeeeee"/>
+<path d="M250.0,83.0 L325.9,83.0 L325.9,113.0 L401.9,113.0 L401.9,83.0 L477.8,83.0 L477.8,113.0 L553.8,113.0 L553.8,83.0 L629.7,83.0 L629.7,113.0 L705.6,113.0 L705.6,83.0 L781.6,83.0 L781.6,113.0 L857.5,113.0 L857.5,83.0 L933.4,83.0 L933.4,113.0 L1009.4,113.0 L1009.4,83.0 L1085.3,83.0 L1085.3,113.0 L1161.2,113.0 L1161.2,83.0 L1237.2,83.0 L1237.2,113.0 L1313.1,113.0 L1313.1,83.0 L1389.1,83.0 L1389.1,113.0 L1465.0,113.0 L1465.0,83.0 L1465.0,83.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="151.0" text-anchor="end" font-family="monospace" font-size="13">reset</text>
+<line x1="250" y1="166" x2="1465" y2="166" stroke="#eeeeee"/>
+<path d="M250.0,131.0 L265.2,131.0 L265.2,161.0 L1465.0,161.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="199.0" text-anchor="end" font-family="monospace" font-size="13">dbg_de_pc0_d</text>
+<line x1="250" y1="214" x2="1465" y2="214" stroke="#eeeeee"/>
+<line x1="250.0" y1="181.0" x2="705.6" y2="181.0" stroke="black"/>
+<line x1="250.0" y1="209.0" x2="705.6" y2="209.0" stroke="black"/>
+<text x="477.8" y="199.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000000</text>
+<line x1="705.6" y1="181.0" x2="1009.4" y2="181.0" stroke="black"/>
+<line x1="705.6" y1="209.0" x2="1009.4" y2="209.0" stroke="black"/>
+<text x="857.5" y="199.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000008</text>
+<line x1="1009.4" y1="181.0" x2="1161.2" y2="181.0" stroke="black"/>
+<line x1="1009.4" y1="209.0" x2="1161.2" y2="209.0" stroke="black"/>
+<text x="1085.3" y="199.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000010</text>
+<line x1="1161.2" y1="181.0" x2="1313.1" y2="181.0" stroke="black"/>
+<line x1="1161.2" y1="209.0" x2="1313.1" y2="209.0" stroke="black"/>
+<text x="1237.2" y="199.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000018</text>
+<line x1="1313.1" y1="181.0" x2="1465.0" y2="181.0" stroke="black"/>
+<line x1="1313.1" y1="209.0" x2="1465.0" y2="209.0" stroke="black"/>
+<text x="1389.1" y="199.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000020</text>
+<text x="238" y="247.0" text-anchor="end" font-family="monospace" font-size="13">dbg_em_pc0_d</text>
+<line x1="250" y1="262" x2="1465" y2="262" stroke="#eeeeee"/>
+<line x1="250.0" y1="229.0" x2="857.5" y2="229.0" stroke="black"/>
+<line x1="250.0" y1="257.0" x2="857.5" y2="257.0" stroke="black"/>
+<text x="553.8" y="247.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000000</text>
+<line x1="857.5" y1="229.0" x2="1161.2" y2="229.0" stroke="black"/>
+<line x1="857.5" y1="257.0" x2="1161.2" y2="257.0" stroke="black"/>
+<text x="1009.4" y="247.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000008</text>
+<line x1="1161.2" y1="229.0" x2="1313.1" y2="229.0" stroke="black"/>
+<line x1="1161.2" y1="257.0" x2="1313.1" y2="257.0" stroke="black"/>
+<text x="1237.2" y="247.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000010</text>
+<line x1="1313.1" y1="229.0" x2="1465.0" y2="229.0" stroke="black"/>
+<line x1="1313.1" y1="257.0" x2="1465.0" y2="257.0" stroke="black"/>
+<text x="1389.1" y="247.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000018</text>
+<line x1="1465.0" y1="229.0" x2="1465.0" y2="229.0" stroke="black"/>
+<line x1="1465.0" y1="257.0" x2="1465.0" y2="257.0" stroke="black"/>
+<text x="238" y="295.0" text-anchor="end" font-family="monospace" font-size="13">dbg_mw_pc0_d</text>
+<line x1="250" y1="310" x2="1465" y2="310" stroke="#eeeeee"/>
+<line x1="250.0" y1="277.0" x2="1009.4" y2="277.0" stroke="black"/>
+<line x1="250.0" y1="305.0" x2="1009.4" y2="305.0" stroke="black"/>
+<text x="629.7" y="295.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000000</text>
+<line x1="1009.4" y1="277.0" x2="1313.1" y2="277.0" stroke="black"/>
+<line x1="1009.4" y1="305.0" x2="1313.1" y2="305.0" stroke="black"/>
+<text x="1161.2" y="295.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000008</text>
+<line x1="1313.1" y1="277.0" x2="1465.0" y2="277.0" stroke="black"/>
+<line x1="1313.1" y1="305.0" x2="1465.0" y2="305.0" stroke="black"/>
+<text x="1389.1" y="295.0" text-anchor="middle" font-family="monospace" font-size="11">0x00000010</text>
+<line x1="1465.0" y1="277.0" x2="1465.0" y2="277.0" stroke="black"/>
+<line x1="1465.0" y1="305.0" x2="1465.0" y2="305.0" stroke="black"/>
+<text x="238" y="343.0" text-anchor="end" font-family="monospace" font-size="13">dbg_em_mem_read0_d</text>
+<line x1="250" y1="358" x2="1465" y2="358" stroke="#eeeeee"/>
+<path d="M250.0,353.0 L705.6,353.0 L705.6,323.0 L857.5,323.0 L857.5,353.0 L1313.1,353.0 L1313.1,323.0 L1465.0,323.0 L1465.0,353.0 L1465.0,353.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="391.0" text-anchor="end" font-family="monospace" font-size="13">dbg_load_use_stall_d</text>
+<line x1="250" y1="406" x2="1465" y2="406" stroke="#eeeeee"/>
+<path d="M250.0,401.0 L705.6,401.0 L705.6,371.0 L857.5,371.0 L857.5,401.0 L1313.1,401.0 L1313.1,371.0 L1465.0,371.0 L1465.0,401.0 L1465.0,401.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="439.0" text-anchor="end" font-family="monospace" font-size="13">dbg_frontend_hold_d</text>
+<line x1="250" y1="454" x2="1465" y2="454" stroke="#eeeeee"/>
+<path d="M250.0,449.0 L705.6,449.0 L705.6,419.0 L857.5,419.0 L857.5,449.0 L1313.1,449.0 L1313.1,419.0 L1465.0,419.0 L1465.0,449.0 L1465.0,449.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="487.0" text-anchor="end" font-family="monospace" font-size="13">dbg_load_hazard_mask_d</text>
+<line x1="250" y1="502" x2="1465" y2="502" stroke="#eeeeee"/>
+<line x1="250.0" y1="469.0" x2="705.6" y2="469.0" stroke="black"/>
+<line x1="250.0" y1="497.0" x2="705.6" y2="497.0" stroke="black"/>
+<text x="477.8" y="487.0" text-anchor="middle" font-family="monospace" font-size="11">0x00</text>
+<line x1="705.6" y1="469.0" x2="857.5" y2="469.0" stroke="black"/>
+<line x1="705.6" y1="497.0" x2="857.5" y2="497.0" stroke="black"/>
+<text x="781.6" y="487.0" text-anchor="middle" font-family="monospace" font-size="11">0x01</text>
+<line x1="857.5" y1="469.0" x2="1313.1" y2="469.0" stroke="black"/>
+<line x1="857.5" y1="497.0" x2="1313.1" y2="497.0" stroke="black"/>
+<text x="1085.3" y="487.0" text-anchor="middle" font-family="monospace" font-size="11">0x00</text>
+<line x1="1313.1" y1="469.0" x2="1465.0" y2="469.0" stroke="black"/>
+<line x1="1313.1" y1="497.0" x2="1465.0" y2="497.0" stroke="black"/>
+<text x="1389.1" y="487.0" text-anchor="middle" font-family="monospace" font-size="11">0x01</text>
+<line x1="1465.0" y1="469.0" x2="1465.0" y2="469.0" stroke="black"/>
+<line x1="1465.0" y1="497.0" x2="1465.0" y2="497.0" stroke="black"/>
+<text x="238" y="535.0" text-anchor="end" font-family="monospace" font-size="13">dbg_de_valid0_d</text>
+<line x1="250" y1="550" x2="1465" y2="550" stroke="#eeeeee"/>
+<path d="M250.0,545.0 L553.8,545.0 L553.8,515.0 L1465.0,515.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="583.0" text-anchor="end" font-family="monospace" font-size="13">dbg_em_valid0_d</text>
+<line x1="250" y1="598" x2="1465" y2="598" stroke="#eeeeee"/>
+<path d="M250.0,593.0 L705.6,593.0 L705.6,563.0 L857.5,563.0 L857.5,593.0 L1009.4,593.0 L1009.4,563.0 L1465.0,563.0 L1465.0,593.0 L1465.0,593.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="631.0" text-anchor="end" font-family="monospace" font-size="13">dbg_mw_valid0_d</text>
+<line x1="250" y1="646" x2="1465" y2="646" stroke="#eeeeee"/>
+<path d="M250.0,641.0 L857.5,641.0 L857.5,611.0 L1009.4,611.0 L1009.4,641.0 L1161.2,641.0 L1161.2,611.0 L1465.0,611.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="679.0" text-anchor="end" font-family="monospace" font-size="13">dbg_fwd_a_en0_d</text>
+<line x1="250" y1="694" x2="1465" y2="694" stroke="#eeeeee"/>
+<path d="M250.0,689.0 L857.5,689.0 L857.5,659.0 L1009.4,659.0 L1009.4,689.0 L1465.0,689.0 L1465.0,659.0 L1465.0,659.0" fill="none" stroke="black" stroke-width="2"/>
+<text x="238" y="727.0" text-anchor="end" font-family="monospace" font-size="13">dbg_fwd_a_sel0_d</text>
+<line x1="250" y1="742" x2="1465" y2="742" stroke="#eeeeee"/>
+<line x1="250.0" y1="709.0" x2="857.5" y2="709.0" stroke="black"/>
+<line x1="250.0" y1="737.0" x2="857.5" y2="737.0" stroke="black"/>
+<text x="553.8" y="727.0" text-anchor="middle" font-family="monospace" font-size="11">0x0</text>
+<line x1="857.5" y1="709.0" x2="1009.4" y2="709.0" stroke="black"/>
+<line x1="857.5" y1="737.0" x2="1009.4" y2="737.0" stroke="black"/>
+<text x="933.4" y="727.0" text-anchor="middle" font-family="monospace" font-size="11">0x1</text>
+<line x1="1009.4" y1="709.0" x2="1465.0" y2="709.0" stroke="black"/>
+<line x1="1009.4" y1="737.0" x2="1465.0" y2="737.0" stroke="black"/>
+<text x="1237.2" y="727.0" text-anchor="middle" font-family="monospace" font-size="11">0x0</text>
+<line x1="1465.0" y1="709.0" x2="1465.0" y2="709.0" stroke="black"/>
+<line x1="1465.0" y1="737.0" x2="1465.0" y2="737.0" stroke="black"/>
+</svg>

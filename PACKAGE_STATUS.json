@@ -1,0 +1,24 @@
+{
+  "package": "SuperMIPS_Final_Submission",
+  "rtl_status": "reviewed_v2_regression_passed",
+  "benchmarks": [
+    "smoke",
+    "independent",
+    "dependent",
+    "memory",
+    "control"
+  ],
+  "official_results": {
+    "retired": 115,
+    "single_cycles": 135,
+    "dual_cycles": 99,
+    "speedup": 1.363636,
+    "improvement_pct": 26.667
+  },
+  "remaining": [
+    "architecture diagram",
+    "final report composition and PDF",
+    "final defense notes",
+    "import/generate independent and control SVGs in this package"
+  ]
+}

@@ -1,0 +1,20 @@
+SuperMIPS reviewed package verification
+=======================================
+
+STATIC_LINT_PASS
+- Module/endmodule and begin/end balance checked.
+- Parentheses/braces balance checked.
+- Frozen payload widths checked: DE_W=188, EM_W=139, MW_W=104.
+- Named-port contracts checked in the full Task-8 regression tree.
+
+FOCUSED_LOGIC_CHECKS_PASS
+- supermips_defs.vh matches the uploaded Exercise-7 baseline encodings.
+- Write-back collision arbitration keeps only lane1 write-enable on collision.
+- ALU SUB zero is equivalent to direct 32-bit equality for BEQ.
+- Dummy metadata logic was removed; advance_count illegal-state guard remains.
+
+LIMITATION
+- No Verilog simulator (iverilog/verilator) was installed in this runtime, so a
+  fresh dynamic RTL regression could not be executed here. The original package
+  already contained passing regression logs; the revised files passed the
+  dependency-free structural lint and focused logical checks above.

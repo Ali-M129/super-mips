@@ -1,0 +1,5 @@
+name,status,program_words,dual_cycles,single_cycles,dual_retired,single_retired,dual_issued,single_issued,dual_ipc,single_ipc,dual_cpi,single_cpi,speedup,improvement_pct,dual_issue_cycles,dual_retire_cycles,dual_replays,single_replays,dual_frontend_stalls,single_frontend_stalls,dual_load_stalls,single_load_stalls,dual_memory_conflicts,single_memory_conflicts,dual_redirects,single_redirects
+independent,PASS,30,19,34,30,30,30,30,1.578947,0.882353,0.633333,1.133333,1.789474,44.118,15,15,0,29,0,0,0,0,0,0,0,0
+dependent,PASS,30,34,34,30,30,30,30,0.882353,0.882353,1.133333,1.133333,1.000000,0.000,0,0,29,29,0,0,0,0,0,0,0,0
+memory,PASS,30,24,34,30,30,30,30,1.250000,0.882353,0.800000,1.133333,1.416667,29.412,15,15,0,29,5,0,5,0,0,0,0,0
+control,PASS,36,22,33,25,25,25,25,1.136364,0.757576,0.880000,1.320000,1.500000,33.333,13,11,3,26,2,2,0,0,0,0,7,7

@@ -1,0 +1,17 @@
+rtl/pipeline_reg.v
+rtl/alu_core.v
+rtl/fetch_pair_buffer.v
+rtl/dual_fetch_frontend.v
+rtl/mips_decoder.v
+rtl/register_file_4r2w.v
+rtl/dual_issue_unit.v
+rtl/dual_forwarding_unit.v
+rtl/dual_load_use_hazard_unit.v
+rtl/dual_execute_pipeline.v
+rtl/shared_memory_arbiter.v
+rtl/dual_writeback_stage.v
+rtl/dual_memory_backend.v
+rtl/jr_operand_resolver.v
+rtl/dual_control_redirect_unit.v
+rtl/dual_control_hazard_unit.v
+rtl/superscalar_core.v

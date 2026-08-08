@@ -1,0 +1,18 @@
+# Generated build outputs
+build/**/*.vvp
+build/benchmarks/*.hex
+build/benchmarks/*.lst
+results/generated/**
+!results/generated/**/.gitkeep
+waveforms/raw_vcd/*.vcd
+waveforms/gtkw_views/*.gtkw
+waveforms/event_notes/*_events.md
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+benchmark,instructions,single_cycles,dual_cycles,single_cpi,dual_cpi,single_ipc,dual_ipc,speedup,improvement_pct,dual_issue_cycles,dual_replays,dual_load_stalls,dual_redirects
+independent,30,34,19,1.133333,0.633333,0.882353,1.578947,1.789474,44.118,15,0,0,0
+dependent,30,34,34,1.133333,1.133333,0.882353,0.882353,1.000000,0.000,0,29,0,0
+memory,30,34,24,1.133333,0.800000,0.882353,1.250000,1.416667,29.412,15,0,5,0
+control,25,33,22,1.320000,0.880000,0.757576,1.136364,1.500000,33.333,13,3,0,7
